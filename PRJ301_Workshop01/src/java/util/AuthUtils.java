@@ -31,7 +31,7 @@ public class AuthUtils {
     public static boolean hasRole(HttpServletRequest request, String role){
         UserDTO user = getCurrentUser(request);
         if(user!=null){
-            return user.getRole().equals(role);
+            return  user.getRole().equals(role);
         }
         return false;
     }

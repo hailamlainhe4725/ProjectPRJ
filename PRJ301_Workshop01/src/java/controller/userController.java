@@ -19,6 +19,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
 import model.UserDTO;
 import model.UserDAO;
+import util.PasswordUtils;
 
 /**
  *
@@ -91,6 +92,7 @@ public class userController extends HttpServlet {
         HttpSession session = request.getSession();
         String userName = request.getParameter("userName");
         String password = request.getParameter("password");
+        password = PasswordUtils.encryptSHA256(password);
         UserDAO udao = new UserDAO();
         System.out.println(userName);
         System.out.println(password);

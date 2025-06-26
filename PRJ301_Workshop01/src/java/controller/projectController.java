@@ -31,6 +31,7 @@ public class projectController extends HttpServlet {
         String action = request.getParameter("action");
         System.out.println(action);
         String url = "";
+        
         try{
         if (action.equals("register")) {
             url = handleRegister(request, response);
@@ -91,6 +92,7 @@ public class projectController extends HttpServlet {
     
     
     private String handleRegister(HttpServletRequest request, HttpServletResponse response) {
+        
         String checkError = "";
         String message = "";
         String projectName = request.getParameter("projectName");
@@ -99,6 +101,7 @@ public class projectController extends HttpServlet {
         String estimated_launch = request.getParameter("estimated_launch");
 
         Date date = null;
+        if(AuthUtils.isFounder(request)){
         try {
             date = Date.valueOf(estimated_launch);
         } catch (Exception e) {
@@ -120,7 +123,9 @@ public class projectController extends HttpServlet {
         request.setAttribute("message", message);
         request.setAttribute("project", project);
         return "projectForm.jsp";
+        }
 
+        return "welcome.jsp";
     }
 
     private String handleUpdate(HttpServletRequest request, HttpServletResponse response) {
@@ -140,12 +145,12 @@ public class projectController extends HttpServlet {
     }
 
     private String handleDisplayAllProject(HttpServletRequest request, HttpServletResponse response) {
-        if(AuthUtils.isFounder(request)){
+        
             System.out.println("ok1");
             List<ProjectDTO> list = pdao.getAllProject();
             request.setAttribute("list", list);
             System.out.println("ok2");
-        }
+        
         return "welcome.jsp";
     }
 
