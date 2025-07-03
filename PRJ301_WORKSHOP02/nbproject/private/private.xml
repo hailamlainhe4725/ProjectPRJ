@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/PRJ301/kho/PRJ301_WORKSHOP02/src/java/Model/ExamsDAO.java</file>
+            <file>file:/C:/PRJ301/kho/PRJ301_WORKSHOP02/src/java/Model/ExamsDTO.java</file>
+            <file>file:/C:/PRJ301/kho/PRJ301_WORKSHOP02/src/java/Model/ExamCategoriesDAO.java</file>
+            <file>file:/C:/PRJ301/kho/PRJ301_WORKSHOP02/src/java/Model/UserDTO.java</file>
+            <file>file:/C:/PRJ301/kho/PRJ301_WORKSHOP02/src/java/Model/QuestionsDAO.java</file>
+            <file>file:/C:/PRJ301/kho/PRJ301_WORKSHOP02/web/login.jsp</file>
+            <file>file:/C:/PRJ301/kho/PRJ301_WORKSHOP02/src/java/MainController/MainController.java</file>
+            <file>file:/C:/PRJ301/kho/PRJ301_WORKSHOP02/src/java/Utils/AuthUtils.java</file>
+            <file>file:/C:/PRJ301/kho/PRJ301_WORKSHOP02/src/java/Model/ExamCategoriesDTO.java</file>
+            <file>file:/C:/PRJ301/kho/PRJ301_WORKSHOP02/web/index.html</file>
+            <file>file:/C:/PRJ301/kho/PRJ301_WORKSHOP02/src/java/Utils/DbUtils.java</file>
+            <file>file:/C:/PRJ301/kho/PRJ301_WORKSHOP02/src/java/MainController/ExamController.java</file>
+            <file>file:/C:/PRJ301/kho/PRJ301_WORKSHOP02/src/java/MainController/UserController.java</file>
+            <file>file:/C:/PRJ301/kho/PRJ301_WORKSHOP02/web/welcome.jsp</file>
+            <file>file:/C:/PRJ301/kho/PRJ301_WORKSHOP02/src/java/Model/QuestionsDTO.java</file>
+            <file>file:/C:/PRJ301/kho/PRJ301_WORKSHOP02/web/examForm.jsp</file>
+            <file>file:/C:/PRJ301/kho/PRJ301_WORKSHOP02/src/java/Model/UserDAO.java</file>
+        </group>
+    </open-files>
+</project-private>
